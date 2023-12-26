@@ -79,20 +79,22 @@ function Intro() {
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
-        <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-102 transition border-black/10"
-          href="https://www.linkedin.com/in/fernando-sayago/"
-          target="_blank"
-        >
-          <BsLinkedin />
-        </a>
-        <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full outline-none focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-102 transition border-black/10"
-          href="https://www.github.com/fersayago"
-          target="_blank"
-        >
-          <FaGithubSquare />
-        </a>
+        <div className="flex items-center gap-2">
+          <a
+            className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-102 transition border-black/10"
+            href="https://www.linkedin.com/in/fernando-sayago/"
+            target="_blank"
+          >
+            <BsLinkedin />
+          </a>
+          <a
+            className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full outline-none focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-102 transition border-black/10"
+            href="https://www.github.com/fersayago"
+            target="_blank"
+          >
+            <FaGithubSquare />
+          </a>
+        </div>
       </motion.div>
     </section>
   );
