@@ -1,7 +1,6 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { MdOutlineHealthAndSafety, MdOutlineWorkOutline  } from "react-icons/md";
+import { BsEnvelope } from "react-icons/bs";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
@@ -30,6 +29,33 @@ export const links = [
   {
     name: "Contact",
     hash: "#contact",
+  },
+] as const;
+
+export const experiencesData = [
+  {
+    title: "Solution Developer",
+    company: "Andreani Logistics Group",
+    description:
+      "Created and maintained custom solutions on Microsoft's Dynamics 365 platform and portal. I worked with C#, Javascript, jQuery, React and .NET Framework.",
+    icon: React.createElement(MdOutlineWorkOutline),
+    date: "2019- 2020",
+  },
+  {
+    title: "Full-Stack Developer",
+    company: "Andreani Logistics Group",
+    description:
+      "Worked on the migration from CRM architecture to propietary web applications utilizing technologies such as React, TypeScript, Material-UI, C#, .NET Core, SQL Server and Docker.",
+    icon: React.createElement(BsEnvelope),
+    date: "2020 - 2022",
+  },
+  {
+    title: "Full-Stack Developer",
+    company: "ÜMA Health",
+    description:
+      "Worked as a full-stack javascript developer on a startup project. I worked with TypeScript, React, Node.js, Nest.js, SCSS, Storybook, NoSQL and GCP (Firestore, Firebase, API Gateway, Cloud Functions).",
+    icon: React.createElement(MdOutlineHealthAndSafety),
+    date: "2022 - 2023",
   },
 ] as const;
 

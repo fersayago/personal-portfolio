@@ -27,6 +27,7 @@ const Skills = () => {
 
   return (
     <section
+      id="skills"
       className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
       ref={ref}
     >
@@ -35,7 +36,7 @@ const Skills = () => {
         {skillsData.map((skill, index) => (
           <motion.li
             key={index}
-            className="bg-white border border-black/[0.1] rounded-xl px-5 py-3"
+            className="bg-white border border-black/[0.1] rounded-xl px-5 py-3 hover:bg-black/[0.05] transition-colors duration-200 cursor-default"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
