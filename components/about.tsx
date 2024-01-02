@@ -2,9 +2,13 @@
 import React from 'react'
 import SectionHeading from './section-heading'
 import { motion } from 'framer-motion'
+import { useSectionInView } from '@/hooks/hooks'
 
 const About = () => {
-  const ref = React.useRef(null)
+
+  const { ref } = useSectionInView({
+    sectionName: "About",
+  })
   
   return (
     <motion.section
