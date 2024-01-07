@@ -14,6 +14,7 @@ const Experience = () => {
     sectionName: "Experience",
     threshold: 0.6,
   });
+
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>My experience</SectionHeading>
@@ -37,11 +38,10 @@ const Experience = () => {
                 background: "white",
                 fontSize: "1.5rem",
               }}
-              visible
             >
               <h3 className="font-semibold capitalize">{experience.title}</h3>
               <p className="font-normal !mt-0">{experience.company}</p>
-              <p className="!mt-1 !font-normal">{experience.description}</p>
+              <p className="!mt-1 !font-normal text-gray-700">{experience.description}</p>
             </VerticalTimelineElement>
           </React.Fragment>
         ))}
