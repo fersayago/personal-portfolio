@@ -22,4 +22,4 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 - [ ] Upgrade Next to latest version when react-vertical-timeline-component provides compatibility
 - [ ] Add Spanish Language
-- [ ] Fix Projects section on mobile
+- [x] Fix Projects section on mobile
