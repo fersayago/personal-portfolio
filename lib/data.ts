@@ -61,24 +61,30 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Kanbanized",
+    url: "https://kanbanized.vercel.app/",
+    repoUrl: "https://github.com/fersayago/kanbanize",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "application designed to seamlessly integrate the Kanban framework into your personal project management workflow.",
+    tags: ["React", "Typescript", "Next.js", "Server Actions", "Tailwind", "Prisma", "Shadcn UI"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "CBoard",
+    url: "https://cboard.vercel.app/",
+    repoUrl: "https://github.com/fersayago/cboard",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Application designed to foster collaboration by providing a dynamic digital whiteboard platform.",
+    tags: ["React", "Typescript", "Next.js", "Tailwind", "Liveblocks", "Clerk"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Owly Oracle",
+    url: "https://owlyoracle.vercel.app/",
+    repoUrl: "https://github.com/fersayago/owlyoracle",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Free, fun, and bite-sized language lessons, available anytime, anywhere. Master new languages on-the-go with ease.",
+    tags: ["React", "Typescript", "Next.js", "Tailwind", "Bun", "Drizzle"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
