@@ -20,6 +20,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## TODO
 
-- [ ] Upgrade Next to latest version when react-vertical-timeline-component provides compatibility
+- [ ] Update project images
 - [ ] Add Spanish Language
+- [ ] Upgrade Next to latest version when react-vertical-timeline-component provides compatibility
 - [x] Fix Projects section on mobile
