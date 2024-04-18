@@ -71,7 +71,7 @@ export const projectsData = [
   },
   {
     title: "CBoard",
-    url: "https://cboard.vercel.app/",
+    url: "https://c-board.vercel.app/",
     repoUrl: "https://github.com/fersayago/cboard",
     description:
       "Application designed to foster collaboration by providing a dynamic digital whiteboard platform.",
