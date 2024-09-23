@@ -80,7 +80,7 @@ export const projectsData = [
   },
   {
     title: "Owly Oracle",
-    url: "https://owlyoracle.vercel.app/",
+    url: "https://ooracle.vercel.app/",
     repoUrl: "https://github.com/fersayago/owlyoracle",
     description:
       "Free, fun, and bite-sized language lessons, available anytime, anywhere. Master new languages on-the-go with ease.",
