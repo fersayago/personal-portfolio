@@ -65,7 +65,7 @@ function Intro() {
       >
         <span className="font-bold">Hello, I&apos;m Fernando.</span> I&apos;m a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">4 years</span> of experience. I enjoy
+        <span className="font-bold">{new Date().getFullYear() - 2019} years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
         <span className="underline">React, Node and .NET</span>.
       </motion.h1>
